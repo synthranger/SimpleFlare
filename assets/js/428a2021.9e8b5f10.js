@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[110],{97868:function(e){e.exports=JSON.parse('{"sourceUrl":"https://github.com/Synthranger/SimpleFlare/blob/docusaurus-and-moonwave","baseUrl":"/SimpleFlare/","classOrder":[],"apiCategories":[]}')}}]);
