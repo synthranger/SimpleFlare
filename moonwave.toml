@@ -2,7 +2,7 @@ gitRepoUrl = "https://github.com/Synthranger/SimpleFlare"
 
 [home]
 enabled = true
-includeReadme = false
+includeReadme = true
 
 [docusaurus]
 tagline = "Quick flares for various uses"
