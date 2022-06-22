@@ -31,6 +31,27 @@ export type SimpleFlare = {
 
 local Flares: {SimpleFlare} = {}
 
+--[=[
+	@class SimpleFlare
+]=]
+--[=[
+	A boolean that determines if the SimpleFlare object will be destroyed in the next renderstep frame.
+	@prop Dispose boolean
+	@within SimpleFlare
+	@readonly
+]=]
+--[=[
+	The BillboardGui that the SimpleFlare object renders.
+	@prop Instance BillboardGui
+	@within SimpleFlare
+	@readonly
+]=]
+--[=[
+	The base size of the flare that was passed in the `originalSize` argument of the SimpleFlare constuctor.
+	You can set this property to anything you like.
+	@prop OriginalSize UDim2
+	@within SimpleFlare
+]=]
 local SimpleFlare = {}
 SimpleFlare.__index = SimpleFlare
 
@@ -42,10 +63,22 @@ local function getLookVector(object: Part | Attachment): Vector3
 	end
 end
 
+--[=[
+	Schedules the SimpleFlare to be destroyed in the next renderstep frame.
+	@return void
+]=]
 function SimpleFlare:Destroy()
 	self.Instance:Destroy()
 end
 
+--[=[
+	Creates a SimpleFlare object.
+	
+	@param adornee Part | Attachment -- The adornee of the flare
+	@param flareImageId string -- The imageId of the flare
+	@param originalSize UDim2 -- The base size of the flare
+	@return SimpleFlare
+]=]
 function SimpleFlare.new(adornee: Part | Attachment, flareImageId: string, originalSize: UDim2): SimpleFlare
 	local self : SimpleFlare= setmetatable({
 		Dispose = false;

@@ -1,16 +1,16 @@
 # SimpleFlare
-A simple flare system. <br>
+A simple flare system. <br></br>
 Possible uses are:
 - Laser flares.
 - Scope reflections.
 
 ### Demo:
-![image](assets/Demo.gif)
+<!--![image](assets/Demo.gif)-->
 
 ---
-## Documentation <br>
+## Documentation <br></br>
 
-### Types <br>
+### Types <br></br>
 #### SimpleFlare
 ```lua
 export type SimpleFlare = {
@@ -20,13 +20,13 @@ export type SimpleFlare = {
 }
 ```
 
-### Functions <br>
+### Functions <br></br>
 #### SimpleFlare.new
 Constructs a new SimpleFlare object.
 ```lua
 function SimpleFlare.new(adornee: Part | Attachment, flareImageId: string, originalSize: UDim2): SimpleFlare
 ```
-<br>
+<br></br>
 
 #### SimpleFlare:Destroy
 Destroys the SimpleFlare object.
@@ -35,13 +35,13 @@ function SimpleFlare:Destroy(): void
 ```
 
 ---
-## SimpleFlare Testing Instructions
+## Testing Instructions
 - Put SimpleFlare.lua in ReplicatedStorage
 - Put ExampleFlare.lua in ReplicatedStorage
 - Put SimpleFlareTester.client.lua in StarterPlayerScripts
 
-It should look like this: <br>
-![image](assets/Directories.PNG)
+It should look like this: <br></br>
+<!--![image](assets/Directories.PNG)-->
 
-After that just hit Play and see it in action. <br>
+After that just hit Play and see it in action. <br></br>
 Note that the attachment is in `0, 10, 20` of workspace.
