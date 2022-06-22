@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[110],{97868:function(e){e.exports=JSON.parse('{"sourceUrl":"https://github.com/Synthranger/SimpleFlare/blob/main","baseUrl":"/SimpleFlare/","classOrder":[],"apiCategories":[]}')}}]);
