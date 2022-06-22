@@ -1,5 +1,6 @@
-    [Docs](https://synthranger.github.io/SimpleFlare/)
+[Docs](https://synthranger.github.io/SimpleFlare/)
 <!--moonwave-hide-before-this-line-->
-# Demonstration
-![](assets/Demo.gif)
-![](../static/Demo.gif)
+<div align="center"> 
+<h1>Demonstration</h1>
+<img src="https://synthranger.github.io/SimpleFlare/Demo.gif"></img>
+</div>
