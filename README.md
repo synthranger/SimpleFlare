@@ -1,5 +1,5 @@
 # SimpleFlare
-[Changelog](CHANGELOG.md)
+[Changelog](CHANGELOG.md) <br/>
 [Documentation](https://synthranger.github.io/SimpleFlare/)
 <!--moonwave-hide-before-this-line-->
 <div align="center"> 
