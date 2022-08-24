@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 # Getting Started
 
-## Usage Example
+## Example Usage
 ```lua
 local SimpleFlare = require(path.to.SimpleFlare)
 
@@ -20,9 +20,9 @@ print(newFlare.Dispose) -- true
 
 ## Testing Instructions
 
-- Put src/SimpleFlare.lua in ReplicatedStorage
-- Put src/tests/ExampleFlare.lua in ReplicatedStorage
-- Put src/tests/SimpleFlareTester.client.lua in StarterPlayerScripts
+- Put src/init.lua in ReplicatedStorage
+- Put tests/ExampleFlare.lua in ReplicatedStorage
+- Put tests/SimpleFlareTester.client.lua in StarterPlayerScripts
 
 It should look like this: <br></br>
 ![image](../static/Directories.PNG)

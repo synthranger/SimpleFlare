@@ -1,4 +1,6 @@
-[Docs](https://synthranger.github.io/SimpleFlare/)
+# SimpleFlare
+[Changelog](CHANGELOG.md)
+[Documentation](https://synthranger.github.io/SimpleFlare/)
 <!--moonwave-hide-before-this-line-->
 <div align="center"> 
 <h1>Demonstration</h1>
