@@ -27,6 +27,8 @@ export type SimpleFlare = {
 	Dispose: boolean;
 	OriginalSize: UDim2;
 	Instance: typeof(defaultFlare);
+	
+	Destroy: (self: SimpleFlare) -> ();
 }
 
 local Flares: {SimpleFlare} = {}
@@ -80,7 +82,7 @@ end
 	@return SimpleFlare
 ]=]
 function SimpleFlare.new(adornee: Part | Attachment, flareImageId: string, originalSize: UDim2): SimpleFlare
-	local self : SimpleFlare= setmetatable({
+	local self: SimpleFlare = setmetatable({
 		Dispose = false;
 		OriginalSize = originalSize or UDim2.new(1, 0, 1, 0);
 		Instance = defaultFlare:Clone();
